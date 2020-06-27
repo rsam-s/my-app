@@ -7,6 +7,11 @@
 	<version>4.0.0</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
+	<scm>
+        <connection>scm:git:https://github.com/rsam-s/my-app.git</connection>
+        <url>https://github.com/rsam-s/my-app.git</url>
+        <developerConnection>scm:git:https://github.com/rsam-s/my-app.git</developerConnection>
+        </scm>
 
 	<dependencies>
 		<dependency>
