@@ -37,12 +37,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://13.233.194.46:8081/repository/mywebs/</url>
+		    <url>http://13.233.194.46:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://13.233.194.46:8081/repository/myweb/</url>
+		    <url>http://13.233.194.46:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
 	
@@ -115,7 +115,7 @@
                </executions>
                <configuration>
                   <serverId>nexus</serverId>
-                  <nexusUrl>http://13.233.194.46:8081/repository/myweb/</nexusUrl>
+                  <nexusUrl>http://13.233.194.46:8081/repository/maven-releases/</nexusUrl>
                   <skipStaging>true</skipStaging>
                </configuration>
             </plugin>
