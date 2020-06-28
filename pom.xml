@@ -37,7 +37,7 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://13.233.194.46:8081/repository/maven-snapshots/</url>
+		    <url>http://13.233.194.46:8081/repository/myweb-redeploy/</url>
 		 </snapshotRepository>
 		
 		<repository>
