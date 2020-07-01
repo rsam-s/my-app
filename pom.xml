@@ -36,13 +36,13 @@
 	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://13.233.194.46:8081/repository/myweb-redeploy/</url>
+		    <id>nexus3</id>
+		    <url>http://13.233.16.150:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus</id>
-		    <url>http://13.233.194.46:8081/repository/maven-releases/</url>
+		    <id>nexus3</id>
+		    <url>http://13.233.16.150:8081/repository/myweb/</url>
 		</repository>
   	</distributionManagement>
 	
@@ -114,8 +114,8 @@
                   </execution>
                </executions>
                <configuration>
-                  <serverId>nexus</serverId>
-                  <nexusUrl>http://13.233.194.46:8081/repository/maven-releases/</nexusUrl>
+                  <serverId>nexus3</serverId>
+                  <nexusUrl>http://13.233.16.150:8081/repository/myweb/</nexusUrl>
                   <skipStaging>true</skipStaging>
                </configuration>
             </plugin>
