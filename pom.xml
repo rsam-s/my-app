@@ -8,7 +8,7 @@
 	<url>http://maven.apache.org</url>
 	<scm>
         <connection>scm:git:https://github.com/rsam-s/my-app.git</connection>
-        <url>https://github.com/rsam-s/my-app.git</url>
+        <url>https://github.com/rsam-s/my-app</url>
         <developerConnection>scm:git:https://github.com/rsam-s/my-app.git</developerConnection>
           <tag>HEAD</tag>
   </scm>
